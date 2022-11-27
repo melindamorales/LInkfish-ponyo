@@ -1,0 +1,1446 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(184, 207, 229);
+    font-family: 'Patrick Hand', cursive;
+   
+}
+
+
+
+.container{
+
+    max-width: 500px;
+
+
+    margin: 0;
+
+    background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    height:100vh;
+
+    text-align: center;
+}
+
+
+
+
+
+#pfp{
+    
+    /* max-width: 20%; */
+    /* height: auto; */
+    
+    border-radius: 100%;
+    border: 2px solid black;
+
+    /* margin-top: 160px; */
+
+}
+
+
+
+
+.buttons-group{
+    display: grid;
+    row-gap: 25px;
+    padding-top: 25px;
+}
+
+h1{
+    font-size: xx-large;
+    padding-bottom: 3%;
+}
+
+h2{
+    font-size: x-large;
+    margin-left: 9%;
+    margin-right: 3%;
+    padding-top: 12px;
+}
+
+
+
+
+/* buttonsss */
+
+#art1{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#art2{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#commisions{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#portfolio{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#redbubble{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#mecari{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+#pinterest{
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: large;
+}
+
+
+footer{
+    position: absolute;
+    top: 90%;
+    right: 46%;
+    font-size: large;
+}
+
+
+
+
+
+
+/* media queries */
+
+
+
+
+
+
+
+/* FOR PHONESSSSSSS */
+
+
+
+
+
+
+
+/* GALAXY FOLD */
+
+
+
+@media screen and (min-width: 280px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 101% 100%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 16%;
+        margin-top: 55px;
+    }
+    
+    h1{
+        font-size: large;
+        padding-bottom: 0;
+        margin-bottom: 3px;
+    }
+    
+    h2{
+        font-size: small;
+        padding-top: 0;
+        margin-left: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 36px 36px 36px 36px 36px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer{
+        position: absolute;
+        right: 17%;
+        top: 91%;
+        font-size: small;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SAMSUNG GALAXY S8+ */
+
+
+@media screen and (min-width: 360px){
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 102%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 17%;
+        margin-top: 70px;
+    
+    }
+    
+    h1{
+        font-size: x-large;
+        padding-bottom: 0;
+        margin-bottom: 3px;
+    }
+    
+    h2{
+        font-size: medium;
+        padding-top: 0;
+        margin-bottom: 37px;
+        margin-left: 25px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 36px 36px 36px 36px 50px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 18%;
+        top: 91%;
+        font-size: medium;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IPHONE SE */
+
+
+
+
+@media screen and (min-width: 375px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 102%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 17%;
+        margin-top: 55px;
+    
+    }
+    
+    h1{
+        font-size: x-large;
+        padding-bottom: 0;
+        margin-bottom: 3px;
+    }
+    
+    h2{
+        font-size: medium;
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 35px 35px 35px 35px 50px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 19%;
+        top: 91%;
+    }
+    
+
+
+}
+
+
+
+
+
+/* IPHONE 12PRO */
+
+
+
+
+@media screen and (min-width: 390px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 95%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 18%;
+        margin-top: 80px;
+    
+    }
+    
+    h1{
+        font-size: x-large;
+        padding-bottom: 0;
+        margin-bottom: 6px;
+    }
+    
+    h2{
+        font-size: medium;
+        padding-top: 0;
+        margin-bottom: 40px;
+        margin-left: 25px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 40px 40px 40px 40px 55px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 19%;
+        top: 87%;
+        font-size: medium;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* IPHONE XR */
+
+
+
+
+@media screen and (min-width: 414px){
+
+
+
+
+    .container{
+
+    max-width: 100vh;
+    margin: 0;
+    padding: 1px;
+    width: auto;
+    background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-size: 100% 90%;
+
+    background-position-y: 20%;
+    height:100vh;
+    text-align: center;
+
+    }
+
+    #pfp{
+        max-width: 18%;
+        margin-top: 100px;
+        margin-bottom: 2px;
+
+    }
+
+    h1{
+        font-size: x-large;
+        padding-bottom: 0;
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+
+    h2{
+        font-size: medium;
+        padding-top: 0;
+        margin-bottom: 34px;
+        margin-left: 35px;
+    }
+
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 39px 39px 39px 39px 50px;
+    }
+
+    footer{
+        position: absolute;
+        right: 23%;
+        top: 83%;
+        font-size: medium;
+    }
+
+
+}
+
+
+
+
+
+/* SURFACE DUO */
+
+
+@media screen and (min-width: 540px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 102%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    #pfp{
+        max-width: 16%;
+        margin-top: 55px;
+    
+    }
+    
+    h1{
+        font-size: xX-large;
+        padding-bottom: 0;
+        margin-bottom: 6px;
+    }
+    
+    h2{
+        font-size: large;
+        padding-top: 0;
+        margin-bottom: px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        grid-template-rows: 39px 39px 39px 39px 50px;
+        padding-top: 7px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 29%;
+        top: 92%;
+    }
+    
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+
+    #pfp{
+        max-width: 30%;
+        margin-top: 160px;
+        margin-bottom: 10px;
+    }
+
+    h1{
+        font-size: xx-large;
+        padding: 2%;
+    }
+    h2{
+        font-size: large;
+        margin: 0;
+    }
+    .container{
+        max-width: 700px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+   .buttons-group{
+       row-gap: 20px;
+       grid-template-rows: 40px 40px 40px 40px;
+   }
+
+   footer{
+    position: absolute;
+    right: 32%;
+    top: 85%;
+   }
+}
+
+
+    
+
+
+
+
+/* IPAD MINI */
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+   
+
+   
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 100%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 15%;
+        margin-top: 90px;
+    
+    }
+    
+    h1{
+        font-size: xx-large;
+        padding-bottom: 0;
+        margin-bottom: 6px;
+        padding-top: 0;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        margin: 0;
+        grid-template-rows: 55px 55px 55px 55px 75px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 33%;
+        top: 90%;
+        font-size: larger;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* IPAD AIR */
+
+
+
+@media screen and (min-width: 820px){
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 100%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 15%;
+        margin-top: 109px;
+        margin-bottom: 15px;
+    
+    }
+    
+    h1{
+        font-size: xx-large;
+        padding-bottom: 0;
+        margin-bottom: 6px;
+        padding-top: 15;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 45px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        margin: 0;
+        grid-template-rows: 55px 55px 55px 55px 75px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 33%;
+        top: 90%;
+        font-size: larger;
+    }
+    
+    
+}
+
+
+
+
+
+/* SURFACE PRO7 */
+
+
+@media screen and (min-width: 912px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        margin: 0;
+        padding: 1px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 100%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 14%;
+        margin-top: 130px;
+        margin-bottom: 10px;
+    
+    }
+    
+    h1{
+        font-size: xx-large;
+        padding-bottom: 0;
+        margin-bottom: 21px;
+        padding-top: 0;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 45px;
+    }
+    
+    .buttons-group{
+        row-gap: 10px;
+        margin: 0;
+        grid-template-rows: 65px 65px 65px 65px 75px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 32%;
+        top: 90%;
+        font-size: x-large;
+    }
+}
+
+
+
+
+
+/* NEST HUB  TABLET */
+
+
+
+@media screen and (min-width: 1024px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 210px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 10%;
+        margin-top: 40px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    h1{
+        font-size: x-large;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    
+    h2{
+        font-size: large;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 40px 40px 40px 40px 45px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 37%;
+        top: 95%;
+        font-size: large;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        margin-left: 30px;
+        width: auto;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 155px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 38%;
+        top: 95%;
+        font-size: x-large;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1250px){
+
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 70px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 38%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* NEST HUB MAX   TABLET */
+
+
+
+
+
+@media screen and (min-width: 1280px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 265px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 10%;
+        margin-top: 50px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 50px 50px 50px 50px 65px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 35%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 1300px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 105px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 95px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 37%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+
+
+@media screen and (min-width: 1400px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 170px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 95px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 37%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+
+
+@media screen and (min-width: 1500px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 240px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 95px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 37%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1700px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 300px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 95px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 40%;
+        top: 95%;
+        font-size: x-large;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1800px){
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        padding: 1px;
+        width: auto;
+        margin-left: 300px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 100% 107%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 11%;
+        margin-top: 95px;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 43%;
+        top: 95%;
+        font-size: x-large;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1890px){
+
+
+
+
+
+    .container{
+
+        max-width: 100vh;
+        width: auto;
+        margin-left: 1060px;
+        background-image: url(./img/doodlebackgroundd-ponyooo\ copy.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        background-size: 90% 100%;
+    
+        background-position-y: 20%;
+        height:100vh;
+        text-align: center;
+    
+    }
+    
+    #pfp{
+        max-width: 9%;
+        margin-top: 120px;
+        padding: 0;
+        margin-bottom: 9px;
+    }
+    
+    h1{
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size: x-large;
+        margin-left: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .buttons-group{
+        margin: 0;
+        grid-template-rows: 70px 70px 70px 70px 85px;
+    }
+    
+    footer{
+        position: absolute;
+        right: 44%;
+        top: 90%;
+        font-size: x-large;
+    }
+}
+
+
+
