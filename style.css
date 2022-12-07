@@ -421,7 +421,8 @@ footer{
     
     #pfp{
         max-width: 18%;
-        margin-top: 80px;
+        margin-top: 60px;
+        margin-bottom: 0;
     
     }
     
@@ -434,19 +435,19 @@ footer{
     h2{
         font-size: medium;
         padding-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         margin-left: 25px;
     }
     
     .buttons-group{
         row-gap: 10px;
-        grid-template-rows: 40px 40px 40px 40px 55px;
+        grid-template-rows: 40px 40px 40px 40px 40px;
     }
     
     footer{
         position: absolute;
         right: 19%;
-        top: 87%;
+        top: 95%;
         font-size: medium;
     }
 
